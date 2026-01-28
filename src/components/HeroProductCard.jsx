@@ -5,11 +5,11 @@ const HeroProductCard = ({ product }) => {
     <div className="bg-white rounded-[2.5rem] p-8 shadow-sm border border-gray-100 h-full flex flex-col relative overflow-hidden">
       
       {/* Large Image Area */}
-      <div className="w-full flex-grow bg-brand-surface rounded-[2rem] mb-6 overflow-hidden flex items-center justify-center p-8 relative group">
+      <div className="w-full flex-grow bg-brand-surface rounded-[2rem] mb-6 overflow-hidden flex items-center justify-center p-4 relative group">
         <img 
           src={product.image} 
           alt={product.name} 
-          className="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-110 drop-shadow-xl"
+          className="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-110 drop-shadow-xl rounded-2xl"
         />
       </div>
 

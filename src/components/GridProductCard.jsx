@@ -9,7 +9,7 @@ const GridProductCard = ({ product }) => {
         <img 
           src={product.image} 
           alt={product.name} 
-          className="max-w-full max-h-full object-contain drop-shadow-md"
+          className="max-w-full max-h-full object-contain drop-shadow-md rounded-xl"
         />
       </div>
 

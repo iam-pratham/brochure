@@ -3,7 +3,7 @@ export const products = [
     id: 1,
     name: "Super Basmati Rice",
     price: "₹199",
-    image: "/images/basmati-super.jpeg",
+    image: "/images/new rice.jpeg",
     description: "Premium long-grain aromatic rice."
   },
   {
@@ -52,7 +52,7 @@ export const products = [
     id: 8,
     name: "Moong Dal",
     price: "₹115",
-    image: "/images/moong-dal.jpeg",
+    image: "/images/new moong.jpeg",
     description: "Split green gram, quick cooking."
   },
   {
