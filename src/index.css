@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100 text-brand-text font-sans antialiased;
+  }
+}
+
+.brochure-page {
+  width: 1123px; /* A4 Landscape Width */
+  height: 794px; /* A4 Landscape Height */
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+  body {
+    background-color: white;
+  }
+  .brochure-page {
+    box-shadow: none;
+    margin: 0;
+    page-break-after: always;
+  }
+}
