@@ -1,4 +1,8 @@
-# React + Vite
+# Abhidnya Organic Brochure
+
+This project is a React-based brochure design for Abhidnya, an organic products brand. It features a print-ready A4 layout built with Tailwind CSS.
+
+## Project Setup
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
